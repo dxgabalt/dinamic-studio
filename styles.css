@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de inicio */
+.hero {
+    background-color: #000;
+    color: #ffcc00;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Estilos para la sección de Servicios */
+.services {
+    background-color: #fff; /* Fondo blanco */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000; /* Texto negro */
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services ul li {
+    font-size: 24px;
+    margin: 15px;
+    color: #000; /* Texto negro */
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services ul li img {
+    width: 30px; /* Tamaño de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.services ul li:hover {
+    transform: scale(1.1); /* Zoom en el elemento al pasar el mouse */
+}
+
+/* Estilos para las imágenes de los servicios */
+.services ul li img {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services ul li:hover img {
+    transform: scale(1.2); /* Zoom en la imagen al pasar el mouse */
+}
+
+
+/* Estilos para la sección de Envíos a Todo el País */
+.shipping {
+    background-color: #ffcc00; /* Amarillo */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shipping h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000; /* Texto negro */
+}
+
+.shipping p {
+    font-size: 18px;
+    color: #000; /* Texto negro */
+}
+
+/* Estilos para la sección de Contacto */
+.contact {
+    background-color: #fff; /* Fondo blanco */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000; /* Texto negro */
+}
+
+.contact p {
+    font-size: 18px;
+    color: #000; /* Texto negro */
+}
+
+/* Estilos para el botón de contacto */
+.contact-button a {
+    background-color: #ffcc00; /* Color de fondo amarillo */
+    color: #000; /* Texto negro */
+    border: none;
+    padding: 15px 30px; /* Espaciado interior del botón */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000; /* Texto negro */
+}
+
+
+.contact-button:hover {
+    background-color: #000; /* Cambio de color de fondo al pasar el mouse */
+    color: #ffcc00; /* Cambio de color de texto al pasar el mouse */
+    transform: scale(1.1); /* Zoom en el botón al pasar el mouse */
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+/* Estilos para ajustar el tamaño y centrar las imágenes en el carrusel */
+.portfolio-slider img {
+    width: 480px; /* Establece el ancho deseado */
+    height: 370px; /* Establece la altura deseada */
+    display: block; /* Para centrar horizontalmente */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    border: 2px solid #e2a40d; /* Borde amarillo */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s; /* Transición para el efecto de zoom */
+}
+
+.portfolio-slider img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Estilos para los encabezados en la sección de portafolio */
+.portfolio h2 {
+    font-size: 28px; /* Tamaño de fuente para el encabezado h2 */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Espacio inferior para separarlo de los elementos debajo */
+}
+
+.portfolio h3 {
+    font-size: 24px; /* Tamaño de fuente para el encabezado h3 */
+    color: #000000; /* Color negro */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Espacio superior para separarlo de la imagen */
+}

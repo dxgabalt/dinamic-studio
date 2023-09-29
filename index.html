@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.jpg">
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Bienvenido a Dinamic Studio</h1>
+        <p>Tu solución en impresión y personalización.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Promociones</h2>
+        <div class="portfolio-slider">
+            <div class="slide">
+                <a href="" target="_self">
+                    <img src="imagen1.jpg" alt="Full Claro">
+                    <h3>Detalles</h3>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="" target="_self">
+                    <img src="imagen2.jpg" alt="Agendá tu Cita">
+                    <h3>Detalles</h3>
+                </a>
+            </div>
+            <!-- Agrega más imágenes y enlaces aquí -->
+        </div>
+    </section>
+    
+    <script>
+        // Inicializa Slick Slider
+        $(document).ready(function(){
+            $('.portfolio-slider').slick({
+                arrows: true,
+                dots: true,
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 5000
+            });
+        });
+    </script>
+    
+    
+    
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>
+                <img src="logo.jpg" alt="Icono de Bordado">
+                Bordado
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Impresión Digital">
+                Impresión Digital
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Banners">
+                Banners
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Mantas">
+                Mantas
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Señalización y Rotulación">
+                Señalización y Rotulación
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Etiquetas para Producto">
+                Etiquetas para Producto
+            </li>
+            <li>
+                <img src="logo.jpg" alt="Icono de Tazas y Termos">
+                Tazas y Termos
+            </li>
+        </ul>
+        <p>¡Mucho más!</p>
+    </section>
+    
+    
+    <section id="envios" class="shipping">
+        <h2>Envíos a Todo el País</h2>
+        <p>Disponemos de envíos 🚚 📦 a todo el país para que puedas recibir tus productos de manera rápida y segura.</p>
+    </section>
+    
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas obtener más información sobre nuestros servicios o tienes alguna consulta, ¡no dudes en contactarnos!</p>
+        <button class="contact-button"><a href="contacto.html">Contáctanos</a></button>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 Dinamic Studio</p>
+    </footer>
+</body>
+</html>
